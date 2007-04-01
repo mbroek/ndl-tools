@@ -1,0 +1,19 @@
+# Compile-time configuration for NDL-TOOLS
+# $Id$
+
+MAJOR		= 0
+MINOR		= 0
+REVISION	= 1
+VERSION		= 0.0.1
+PACKAGE		= ndl-tools
+
+SUBDIRS		= ndl-lib ndl-check
+
+RANLIB		= ranlib
+ECHO		= echo -e
+CC		= gcc
+MAKE		= gmake
+TAR		= /usr/bin/tar
+
+CFLAGS		= -O2 -fno-strict-aliasing -Wall -Wshadow -Wwrite-strings -Wstrict-prototypes -D_REENTRANT
+
