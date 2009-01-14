@@ -1,0 +1,27 @@
+# Compile-time configuration for NDL-TOOLS
+# $Id$
+
+VERSION		= @VERSION@
+PACKAGE		= @PACKAGE@
+
+SUBDIRS		= @SUBDIRS@
+
+# for make install, where to put binaries and what owner to set
+SUBDIRS		= @SUBDIRS@
+PREFIX		= @prefix@
+BINDIR		= @prefix@/bin
+ETCDIR		= @prefix@/etc
+DOCDIR		= @prefix@/doc
+VARDIR		= @prefix@/var
+MANDIR		= @prefix@/man
+
+RANLIB		= @RANLIB@
+INSTALL		= @INSTALL@
+ECHO		= echo -e
+CC		= @CC@
+MAKE		= @MAKE@
+TAR		= @TAR@
+
+CFLAGS		= @CFLAGS@
+
+

@@ -1,0 +1,8 @@
+/* config.h.in */
+/* $Id$ */
+
+#undef COPYRIGHT
+#undef VERSION
+
+
+

@@ -1,0 +1,9 @@
+     -= ndl-tools v@VERSION@ for Unix =-
+Ndl-tools is a package with some small utilities
+for nodelist checking.
+OS: Linux, NetBSD and FreeBSD.
+Originating sites 2:280/2802@fidonet and
+http://fido.mbse.eu/
+Copyright by Michiel Broek.
+Released under the terms of the GNU Public
+License.
