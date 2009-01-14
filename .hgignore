@@ -1,0 +1,17 @@
+.filelist
+FILE_ID.DIZ
+INSTALL
+Makefile.global
+autom4te.cache
+config.cache
+config.h
+config.log
+config.status
+header
+ndl-check/ndl-check 
+ndl-check/filelist
+ndl-lib/filelist
+ndl-lib/libndl.a
+
+syntax: glob
+ndl-lib/*.o
